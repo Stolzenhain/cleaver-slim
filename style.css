@@ -98,8 +98,19 @@ pre {
 pre code {
   color: white;
   
+}
+
+/* center / unbreak code only on class ".code-centered" */
+
+.slide:not(.code-centered) pre {
+  text-align: left;
+  padding: 0.2em 0.6em;
+}
+
+.code-centered pre code {
   white-space: pre-line;
 }
+
 
 .slide h3 {
   text-shadow: white 0 0 0.4em;
