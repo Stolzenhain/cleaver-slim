@@ -57,22 +57,17 @@ body {
   text-align: left;
 }
 
-/* skinning */
+
+/* responsive font sizes */
 
 body {
-  font-family: sans-serif;
-  color: black;
-  font-size: 32px;
+  font-size: 21px;
   line-height: 1.4em;
 }
 
-.slide {
-  background-color: white;
-}
-
 h1 {
-  font-size: 2.4em;
-  line-height: 1.2em;  
+  font-size: 1.6em;
+  line-height: 1.2em;
 }
 
 h2,
@@ -80,15 +75,57 @@ h3,
 h4,
 h5,
 h6 {
-  font-size: 1.6em;
+  font-size: 1.4em;
   line-height: 1.2em;
+}
+
+@media (min-width: 720px) {
+  body {
+    font-size: 32px;
+  }
+
+  h1 {
+    font-size: 2.4em;
+  }
+
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-size: 1.6em;
+  }
+}
+
+@media (min-width: 1400px) {
+  body {
+    font-size: 48px;
+  }
+}
+
+
+/* skinning */
+
+body {
+  font-family: sans-serif;
+  color: black;
+}
+
+.slide {
+  background-color: white;
 }
 
 ol,
 ul {
   margin: 0 auto;
-  width: 50%;
   text-align: left;
+}
+
+@media(min-width: 1200px) {
+  ol,
+  ul {
+    width: 50%;
+  }
 }
 
 pre {
@@ -99,6 +136,7 @@ pre code {
   color: white;
   
 }
+
 
 /* center / unbreak code only on class ".code-centered" */
 
