@@ -1,4 +1,4 @@
-Bare
+Slim
 ----
 
 - The usage of `object-fit` for images won't work in IE currently
