@@ -128,8 +128,11 @@ ul {
   }
 }
 
+/* dummy codeblock styling */
+
 pre {
   background: rgba(0,0,0,0.8);
+  white-space: pre-line;
 }
 
 pre code {
