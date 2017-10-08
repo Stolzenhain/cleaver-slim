@@ -169,6 +169,11 @@ a:visited {
   color: blue;
 }
 
+.table-full table {
+  width: 100%;
+  table-layout: fixed;
+}
+
 /* module: controls */
 
 .controls {
