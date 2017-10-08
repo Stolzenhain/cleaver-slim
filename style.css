@@ -161,7 +161,7 @@ pre code {
 
 
 .slide h3 {
-  text-shadow: white 0 0 0.4em;
+  background-color: rgba(255,255,255,0.6);
 }
 
 a,
