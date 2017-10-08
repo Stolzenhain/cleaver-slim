@@ -139,7 +139,7 @@ ul {
 
 pre {
   background: rgba(0,0,0,0.8);
-  white-space: pre-line;
+  white-space: pre-wrap;
 }
 
 pre code {
