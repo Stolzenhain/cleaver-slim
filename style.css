@@ -370,4 +370,7 @@ a:visited {
   .slide {
     position: relative;
   }
+  .slide.hidden {
+    display: table;
+  }
 }
