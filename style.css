@@ -365,3 +365,9 @@ a:visited {
   color: inherit;
   text-decoration: underline;
 }
+
+@media print {
+  .slide {
+    position: relative;
+  }
+}
