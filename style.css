@@ -373,4 +373,7 @@ a:visited {
   .slide.hidden {
     display: table;
   }
+  body {
+    font-size: 24px;
+  }
 }
