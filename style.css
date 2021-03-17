@@ -376,4 +376,7 @@ a:visited {
   body {
     font-size: 24px;
   }
+  .controls {
+    display: none;
+  }
 }
